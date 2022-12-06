@@ -12,9 +12,11 @@ import NotFound from './components/NotFound'
 
 import './App.css'
 
+// for maintain a state method we use class component instead of functional component
 class App extends Component {
-  state = {isDarkTheme: false}
+  state = {isDarkTheme: false} // updating the state
 
+  // here we updating the toggleTheme method using setState
   toggleTheme = () => {
     this.setState(prevState => ({
       isDarkTheme: !prevState.isDarkTheme,
@@ -24,8 +26,10 @@ class App extends Component {
   render() {
     const {isDarkTheme} = this.state
     return (
+      
+      // themecontext method is updating the values where we are accessing themecontext methods
       <ThemeContext.Provider
-        value={{isDarkTheme, toggleTheme: this.toggleTheme}}
+        value={{isDarkTheme, toggleTheme: this.toggleTheme}} // accessing the toggle theme and isdarktheme
       >
         <Switch>
           <Route exact path="/" component={Home} />
