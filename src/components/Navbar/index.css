@@ -1,0 +1,81 @@
+/* Write your CSS here */
+.navbar-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.navbar-content-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 90%;
+  max-width: 1120px;
+  padding-top: 8px;
+}
+
+.webisite-logo {
+  height: 55px;
+  width: 55px;
+}
+
+.img-btn {
+  height: 55px;
+  width: 55px;
+}
+
+.unorder-list {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+}
+
+.nav-link {
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.nav-link-item-dark {
+  color: #000000;
+}
+
+.nav-link-item-light {
+  color: #ffffff;
+}
+
+.nav-bg-dark {
+  background-color: black;
+}
+
+.nav-bg-light {
+  background-color: #ffffff;
+  border-bottom: 1px solid #dcdcdc;
+  box-shadow: 0px 0px 0px 1px #dcdcdc;
+}
+
+.list-item {
+  width: 100%;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.unorder-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-self: stretch;
+  list-style-type: none;
+  padding: 0px;
+  margin: 0px;
+}
+
+.theme-btn {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}

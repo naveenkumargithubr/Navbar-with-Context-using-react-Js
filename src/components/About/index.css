@@ -1,0 +1,39 @@
+/* Write your CSS here */
+.about-bg-dark {
+  background-color: #000000;
+}
+
+.about-bg-light {
+  background-color: #ffffff;
+}
+
+.about-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.about-responsive-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.about-img {
+  width: 175px;
+}
+
+.abt-heading {
+  font-family: 'Roboto';
+  font-size: 34px;
+}
+
+.abt-heading-light {
+  color: #ffffff;
+}
+
+.abt-heading-dark {
+  color: #000000;
+}
